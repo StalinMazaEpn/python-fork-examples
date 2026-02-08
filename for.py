@@ -1,3 +1,11 @@
+password="admin123"   # Bandit B105
+
+def login():
+    print("login")
+
+defregister():         # error de estilo + tabulación
+    print("register")
+
 list_ = [5, 14, 28, 30, 26, 45]
 
 for i in list(filter(lambda x:x>29, list_)):
